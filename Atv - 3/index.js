@@ -1,5 +1,5 @@
 // Criadas as variaveis para:
-const quantidade = 4 //Numero de numeros que vão ser armazenados
+const quantidade = 15 //Numero de numeros que vão ser armazenados
 let numeros = []; // o vetor
 let numero // a variavel que vai armazenar as idades
 let resultado = " "

@@ -4,7 +4,7 @@ let numeros = []; // o vetor
 let numero // a variavel que vai armazenar as idades
 let resultado = " "
 
-// algoritmo que manda o usuario digitar as idades, não pode ser igual ou menor que 0 e não pode ser maior ou igual que 200
+// algoritmo que manda o usuario digitar um numero, que não pode ser menor que 0 ou uma letra.
 
 for (let i = 0; i < quantidade; i++) {
     do {
@@ -17,6 +17,9 @@ for (let i = 0; i < quantidade; i++) {
     numeros[i] = numero
 
 }
+
+// a parte do codigo serve para caso o numero dentro do vetor for multiplicado por 10 e sobrar nada, é verdadeiro. 
+
 for (let j = 0; j < quantidade; j++) {
     if (numeros[j] % 10 === 0)
         resultado += (`${numeros[j]}-`)   

@@ -16,8 +16,9 @@ for (let i = 0; i < quantidade; i++) {
     } while (isNaN(idade) || idade < 0 || idade >= 200);
 
     idades[i] = idade;
-
 }
+
+// algoritmo que conta qual a posição da variavel é maior ou igual a 25
 
 for (let j = 0; j < quantidade; j++) {
     if (idades[j + 1] >= 25) {
